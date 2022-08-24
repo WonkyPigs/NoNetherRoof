@@ -1,0 +1,24 @@
+# NoNetherRoof v1.0
+# By WonkyPigs
+
+# Can be set to a different number for custom world generation
+nether-roof-level: 127
+
+# If you want the plugin to ignore any selected worlds
+# then put them in the list (CASE SENSITIVE)
+whitelisted-worlds: [disabledWorld, disabledWorld2]
+
+# Put the command here which you want the player to run
+# when they are on the nether roof
+# Set to none to disable
+command-to-run: none
+
+# Put the effect name here which you want the player to be given when they are on the nether roof
+# Movement on the roof is disabled by default
+# Set to "none" to disable
+# Guide - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+effect-to-give: BLINDNESS
+
+# Put the message here which will be sent to the player when
+# they are on the nether roof and try to move
+message-to-send: "&cYou cannot enter the nether roof! Go back to /spawn"

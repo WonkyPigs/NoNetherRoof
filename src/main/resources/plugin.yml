@@ -1,0 +1,7 @@
+name: NoNetherRoof
+version: '${project.version}'
+main: dev.wonkypigs.nonetherroof.NoNetherRoof
+api-version: 1.19
+authors: [ WonkyPigs ]
+description: A simple plugin which prevents players from going to the nether roof
+website: wonkypigs.dev
